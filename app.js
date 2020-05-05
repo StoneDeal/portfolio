@@ -1,19 +1,18 @@
-var portfolioApp = angular.module('portfolioApp', ['ngRoute', 
-'ngResource']);
+var portfolioApp = angular.module('portfolioApp', ['ngRoute']);
 
 //Routes
 portfolioApp.config(function ($routeProvider) {
     
     $routeProvider
     
-    .when('/', {
+    .when("/", {
         templateUrl: 'pages/home.html',
         controller: 'homeController'
     })
     
-    .when('/wordpress', {
-        templateUrl: 'pages/second.html',
-        controller: 'homeController'
+    .when("/wordpress", {
+        templateUrl: 'pages/wordpress.html',
+        controller: 'wordpressController'
     });
     
 });
@@ -29,6 +28,12 @@ portfolioApp.service('cityService', function() {
 
 //Controllers
 portfolioApp.controller('homeController', ['$scope',
+function($scope) {
+
+
+}]);
+
+portfolioApp.controller('wordpressController', ['$scope',
 function($scope) {
 
 

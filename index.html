@@ -7,9 +7,9 @@
 
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
         
-        <script src="https://code.angularjs.org/1.3.0-rc.2/angular.min.js"></script>
-        <script src="https://code.angularjs.org/1.3.0-rc.2/angular-route.min.js"></script>
-        <script src="https://code.angularjs.org/1.3.0-rc.2/angular-resource.min.js"></script>
+        <script src="https://code.angularjs.org/1.7.0-rc.0/angular.min.js"></script>
+        <script src="https://code.angularjs.org/1.7.0-rc.0/angular-route.min.js"></script>
+        <script src="https://code.angularjs.org/1.7.0-rc.0/angular-resource.min.js"></script>
         <script src="app.js"></script>
     </head>
     <body>
@@ -21,19 +21,18 @@
                     <a class="navbar-brand" href="/">Stone Deal</a>
 				</div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                    <li><a href="#/wordpress"><i class="fa fa-home"></i>WordPress</a></li>
+                    <li><a href="#!"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#!/wordpress"><i></i>WordPress</a></li>
 				</ul>
 
 			</div>
 			</nav>
-		</header>
-
-        <div class="container">
-
-            <div ng-view></div>
-
-		</div>
-
+        </header>
+        
+        <div ng-app="portfolioApp">
+            <div class="container">
+                <div ng-view></div>
+            </div>
+        </div>
     </body>
 </html>
