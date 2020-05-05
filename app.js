@@ -13,6 +13,11 @@ portfolioApp.config(function ($routeProvider) {
     .when("/wordpress", {
         templateUrl: 'pages/wordpress.html',
         controller: 'wordpressController'
+    })
+
+    .when("/tunetracker", {
+        templateUrl: 'pages/tunetracker.html',
+        controller: 'wordpressController'
     });
     
 });
@@ -21,7 +26,7 @@ portfolioApp.config(function ($routeProvider) {
 /*
 portfolioApp.service('cityService', function() {
 
-    this.city = "New York, NY";
+    
 
 });
 */
