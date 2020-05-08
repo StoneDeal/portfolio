@@ -20,11 +20,17 @@ li a:hover {
   background-color: #F9E3AF !important;
 }
 
-li a:active {
+li a:visited {
   background-color: #F9E3AF !important;
+  color: black;
 }
 
-
+#wp-site:hover,
+#wp-site:visited {
+  background-color: #F9E3AF !important;
+  color: black;
+  border-radius: 2px;
+}
 
 .container {
   background-color: #FAFACF;
@@ -41,6 +47,4 @@ li a:active {
 }
 
 
-
-
-/* #FAFACF  #F6F5B6  #28E4B0
+/* #FAFACF  #F6F5B6  #28E4B0*/
