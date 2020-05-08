@@ -1,9 +1,13 @@
+
 body {
   text-align: center;
   font-family: Georgia, serif;
   background-color: #AEAEAE;
-  background-image: url("media/IMG_5556.JPG");
-  background-repeat: horizontal;
+
+  background: url("media/IMG_5556.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
