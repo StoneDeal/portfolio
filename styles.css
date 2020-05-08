@@ -11,6 +11,21 @@ img {
   overflow: hidden;
 }
 
+a {
+  color: black;
+}
+
+
+li a:hover {
+  background-color: #F9E3AF !important;
+}
+
+li a:active {
+  background-color: #F9E3AF !important;
+}
+
+
+
 .container {
   background-color: #FAFACF;
   border-radius: 10px;
@@ -24,5 +39,8 @@ img {
 .list-group-item {
   background-color: #FAFACF;
 }
+
+
+
 
 /* #FAFACF  #F6F5B6  #28E4B0
